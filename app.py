@@ -18,7 +18,7 @@ PROJECT_URL = os.environ.get('PROJECT_URL', '')        # 项目url,需要自动�
 AUTO_ACCESS = os.environ.get('AUTO_ACCESS', 'false').lower() == 'true'  # false关闭自动保活, true开启自动保活，默认关闭
 FILE_PATH = os.environ.get('FILE_PATH', '.cache')      # 运行路径,sub.txt保存路径
 SUB_PATH = os.environ.get('SUB_PATH', 'sub')           # 订阅token,默认sub，例如：https://www.google.com/sub
-UUID = os.environ.get('UUID', '0601ffd1-b4e2-4113-839f-e90d4bd48ccb')  # UUID,如使用哪吒v1,在不同的平台部署需要修改,否则会覆盖
+UUID = os.environ.get('UUID', 'c48ff415-94e7-44f3-b3fb-6de914462a32')  # UUID,如使用哪吒v1,在不同的平台部署需要修改,否则会覆盖
 NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'v1.wbxl.dpdns.org:10024')      # 哪吒面板域名或ip, v1格式: nezha.xxx.com:8008, v0格式: nezha.xxx.com
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')          # v1哪吒请留空, v0哪吒的agent通信端口,自动匹配tls
 NEZHA_KEY = os.environ.get('NEZHA_KEY', 'fXYWSXfEZbSHMuGHEhcJjisCWDInLBtR')            # v1哪吒的NZ_CLIENT_SECRET或v0哪吒agent密钥
